@@ -6,13 +6,13 @@
 //  Copyright © 2020 Lambda, Inc. All rights reserved.
 //
 import Foundation
-
-class Contact: NSObject {
+//without objc in the beginning we cant access these items within swift.
+@objc class Contact: NSObject {
     
-    var name: String
-    var relationship: String?
+   @objc var name: String
+   @objc var relationship: String?
     
-    init(name: String, relationship: String?) {
+    @objc init(name: String, relationship: String?) {
         self.name = name
         self.relationship = relationship
         
