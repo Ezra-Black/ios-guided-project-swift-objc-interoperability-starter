@@ -43,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FB371F52497DC020095D5DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD0237D223DF91FB00065094 /* Main.storyboard */,
+				BD36BE0323A7F27C00ED64BD /* Assets.xcassets */,
+				BD36BE0523A7F27C00ED64BD /* LaunchScreen.storyboard */,
+				BD36BE0823A7F27C00ED64BD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BD36BDEE23A7F27B00ED64BD = {
 			isa = PBXGroup;
 			children = (
@@ -65,14 +76,11 @@
 				BD36BDFA23A7F27B00ED64BD /* AppDelegate.swift */,
 				BD36BDFC23A7F27B00ED64BD /* SceneDelegate.swift */,
 				BD36BE1023A7F2E200ED64BD /* ContactsTableViewController.swift */,
-				BD0237D223DF91FB00065094 /* Main.storyboard */,
-				BD36BE0323A7F27C00ED64BD /* Assets.xcassets */,
-				BD36BE0523A7F27C00ED64BD /* LaunchScreen.storyboard */,
-				BD36BE0823A7F27C00ED64BD /* Info.plist */,
 				7FB371EF2497D8A80095D5DD /* Contacts.swift */,
 				7FB371F22497DB020095D5DD /* CNSContactController.h */,
 				7FB371F32497DB020095D5DD /* CNSContactController.m */,
 				7FB371F12497DB020095D5DD /* Contacts-Hybrid-Bridging-Header.h */,
+				7FB371F52497DC020095D5DD /* Resources */,
 			);
 			path = "Contacts-Hybrid";
 			sourceTree = "<group>";
@@ -292,7 +300,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = "Contacts-Hybrid/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Contacts-Hybrid/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +321,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = "Contacts-Hybrid/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Contacts-Hybrid/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
